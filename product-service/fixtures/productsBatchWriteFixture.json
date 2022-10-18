@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S":"XX7567ec4b-b10c-48c5-9345-fc73c48a80aa"},
+          "title": {"S":"Amazon Web Services"},
+          "description": {"S":"Short Product Description1"},
+          "price": {"N":"24"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S":"7567ec4b-b10c-48c5-9345-fc73c48a80a1"},
+          "title": {"S":"ProductTitle"},
+          "description": {"S":"Short Product Description7"},
+          "price": {"N":"15"}
+        }
+      }
+    }
+  ]
+}
