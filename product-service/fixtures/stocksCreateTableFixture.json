@@ -1,0 +1,20 @@
+{
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "product_id",
+      "AttributeType": "S"
+    }
+  ],
+  "TableName": "stocks",
+  "KeySchema": [
+    {
+      "AttributeName": "product_id",
+      "KeyType": "HASH"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 5,
+    "WriteCapacityUnits": 5
+  },
+  "TableClass": "STANDARD"
+}

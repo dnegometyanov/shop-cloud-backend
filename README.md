@@ -1,6 +1,25 @@
 # React-shop-cloudfront Backend
 
-##Done ( so far ):
+##Task 4 Done ( so far ):
+
+For now only 4.1 is done - there are data fixtures to fill the tables and commands Makefile.
+
+I'm gonna implements 4.2 and 4.3 as well the next day ( a bit after the deadline, sorry )
+
+You can use the following Makefile commands to drop and create tables:
+
+ - make TABLE_NAME=products drop-table
+ - make TABLE_NAME=stocks drop-table
+
+
+ - make TABLE_NAME=products create-table
+ - make TABLE_NAME=stocks create-table
+
+
+ - make TABLE_NAME=products batch-write-table
+ - make TABLE_NAME=stocks batch-write-table
+
+##Task 3 Done ( so far ):
 ### The backend only part
 
     - both handlers for getProductsList and getProductsById 
